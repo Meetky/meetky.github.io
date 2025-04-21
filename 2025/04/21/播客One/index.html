@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>播客One | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="一、单表查询1.基础查询12345678910111213141516171819202122231. 查询所有列select * from tablename;2. 查询特定列select column1,column2 from tablename;3. 列别名select column1 as name1,column2 as name2 from tablename;4. 去重查询sele">
+<meta property="og:type" content="article">
+<meta property="og:title" content="播客One">
+<meta property="og:url" content="http://example.com/2025/04/21/%E6%92%AD%E5%AE%A2One/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、单表查询1.基础查询12345678910111213141516171819202122231. 查询所有列select * from tablename;2. 查询特定列select column1,column2 from tablename;3. 列别名select column1 as name1,column2 as name2 from tablename;4. 去重查询sele">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-04-21T05:30:21.000Z">
+<meta property="article:modified_time" content="2025-04-21T05:30:39.557Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-播客One" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/04/21/%E6%92%AD%E5%AE%A2One/" class="article-date">
+  <time class="dt-published" datetime="2025-04-21T05:30:21.000Z" itemprop="datePublished">2025-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      播客One
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id="一、单表查询"><a href="#一、单表查询" class="headerlink" title="一、单表查询"></a>一、单表查询</h3><h4 id="1-基础查询"><a href="#1-基础查询" class="headerlink" title="1.基础查询"></a>1.基础查询</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">1. 查询所有列</span><br><span class="line">select * from tablename;</span><br><span class="line"></span><br><span class="line">2. 查询特定列</span><br><span class="line">select column1,column2 from tablename;</span><br><span class="line"></span><br><span class="line">3. 列别名</span><br><span class="line">select column1 as name1,column2 as name2 from tablename;</span><br><span class="line"></span><br><span class="line">4. 去重查询</span><br><span class="line">select distinct column1 from tablename;</span><br><span class="line"></span><br><span class="line">5. 限制返回行数</span><br><span class="line">select * from tablename limit 10;</span><br><span class="line"></span><br><span class="line">6. 分页查询</span><br><span class="line">select * from tablename limit 10 offset 20;</span><br><span class="line"></span><br><span class="line">7. 排序查询</span><br><span class="line">select * from tablename order by column1 desc;</span><br><span class="line"></span><br><span class="line">8. 多列查询</span><br><span class="line">select * from tablename order by column1 desc, column2 asc;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-数据过滤"><a href="#2-数据过滤" class="headerlink" title="2.数据过滤"></a>2.数据过滤</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">1. 基础过滤：&gt;, &lt;, &gt;=, &lt;=,!= ,=</span><br><span class="line">select * from tablename where column1 &gt; value1;  # &gt;, &lt;, &gt;=, &lt;=,!= ,=</span><br><span class="line"></span><br><span class="line">2. 多条件过滤：and、or</span><br><span class="line">select * from tablename where column1 &gt; value1 and column2 &lt; value2;</span><br><span class="line">select * from tablename where column1 &gt; value1 or column2 &lt; value2;</span><br><span class="line"></span><br><span class="line">3. 范围查询</span><br><span class="line">select * from tablename where column1 between value1 and value2;</span><br><span class="line"></span><br><span class="line">4. IN操作符</span><br><span class="line">select * from tablename where colum1 in (value1, value2, value3);</span><br><span class="line"></span><br><span class="line">5. 模糊查询</span><br><span class="line">select * from tablename where column1 like &#x27;%value%&#x27;;</span><br><span class="line">select * from tablename where column1 like &#x27;%value&#x27;;</span><br><span class="line">select * from tablename where column1 like &#x27;value%&#x27;;</span><br><span class="line"></span><br><span class="line">6. NULL值判断</span><br><span class="line">select * from tablename where column1 IS NULL;</span><br><span class="line"></span><br><span class="line">7. 排除特定值</span><br><span class="line">select * from tablename where column1 != value1;</span><br></pre></td></tr></table></figure>
+<h4 id="3-聚合函数"><a href="#3-聚合函数" class="headerlink" title="3.聚合函数"></a>3.聚合函数</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">1. 计算总数 count()</span><br><span class="line">select count(*) as cnt from tablename where column1 = value1;</span><br><span class="line"></span><br><span class="line">2. 分组求和 sum()</span><br><span class="line">select column1 as col1, sum(column2) as col2 from tablename group by column1;</span><br><span class="line"></span><br><span class="line">3. 分组平均值 avg()</span><br><span class="line">select column1 as col1,avg(column2) as col2 from tablename group by column1;</span><br><span class="line"></span><br><span class="line">4. 分组最大值 max()</span><br><span class="line">select column1 as col1,max(column2) as col2 from tablename group by col1;</span><br><span class="line"></span><br><span class="line">5. 分组最小值 min()</span><br><span class="line">select column1 as col1,min(column2) as col2 from tablename group by col1;</span><br><span class="line"></span><br><span class="line">6. 分组筛选 having</span><br><span class="line">select column1 as col1, sum(column2) as col2</span><br><span class="line">from tablename</span><br><span class="line">group by column1</span><br><span class="line">where column3=value3</span><br><span class="line">having sum(column2) &gt; value2;</span><br><span class="line"></span><br><span class="line">7. 多列分组</span><br><span class="line">select column1 as col1, column2 as col2, sum(column3) as col3 from tablename group by column1,column2;</span><br></pre></td></tr></table></figure>
+<h4 id="4-高级窗口函数"><a href="#4-高级窗口函数" class="headerlink" title="4.高级窗口函数"></a>4.高级窗口函数</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">1. ROW_NUMBER 生成唯一序号</span><br><span class="line">select column1,column2,</span><br><span class="line">ROW_NUMBER() over (order by column2) as row</span><br><span class="line">from tablename;</span><br><span class="line"></span><br><span class="line">2. RANK 与 DENSE_RANK 排名</span><br><span class="line">select column1,column2, </span><br><span class="line">ANK() over (order by column2 desc) as rank,</span><br><span class="line">DENSE_RANK() over (order by column2 desc) as dense_rank</span><br><span class="line">from tablename;</span><br><span class="line"></span><br><span class="line">3. 累计百分比计算</span><br><span class="line">select column1,column2,</span><br><span class="line">SUM(column2) over (order by column1) / SUM(column2) over() as cumulative_percent</span><br><span class="line">from tablename;</span><br><span class="line"></span><br><span class="line">4. 移动平均（最近三个窗口）</span><br><span class="line">select column1, column2,</span><br><span class="line">avg(column2) over (order by column1 ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) as moving_avg</span><br><span class="line">from tablename;</span><br><span class="line"></span><br><span class="line">5. 分组内前n名</span><br><span class="line">select * from (</span><br><span class="line">	select column1, column2, column3, ROW_NUMBER() over (PARTITION BY column1 ORDER BY column2 DESC) as rn</span><br><span class="line">	from tablename</span><br><span class="line">) where rn &lt;=3;</span><br></pre></td></tr></table></figure>
+<h3 id="二、多表查询"><a href="#二、多表查询" class="headerlink" title="二、多表查询"></a>二、多表查询</h3><h4 id="1-表连接操作"><a href="#1-表连接操作" class="headerlink" title="1.表连接操作"></a>1.表连接操作</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">1. 内连接</span><br><span class="line">select t1.column1,t2.column2</span><br><span class="line">from table1 t1</span><br><span class="line">join table2 t2</span><br><span class="line">on t1.column3 = t2.column2;</span><br><span class="line"></span><br><span class="line">2. 左连接</span><br><span class="line">select t1.column1,t2.column2</span><br><span class="line">from table1 t1</span><br><span class="line">left join table2 t2</span><br><span class="line">on t1.column3 = t2.column2;</span><br><span class="line"></span><br><span class="line">3. 右连接</span><br><span class="line">select t1.clumn1,t2.column2</span><br><span class="line">from table1 t1</span><br><span class="line">right join table2 t2</span><br><span class="line">on t1.column3 = t2.column3;</span><br><span class="line"></span><br><span class="line">4. 全外连接</span><br><span class="line">select t1.column1,t2.column2</span><br><span class="line">from table1 t1</span><br><span class="line">full outer join table2 t2</span><br><span class="line">on t1.column3 = t2.column3;</span><br><span class="line"></span><br><span class="line">5. 自连接</span><br><span class="line">select t1.column as column1,t2.column as column2</span><br><span class="line">from table1 t1</span><br><span class="line">join table1 t2</span><br><span class="line">on t1.column1 = t2.column2;</span><br><span class="line"></span><br><span class="line">6. 交叉连接</span><br><span class="line">select * from colors cross join sizes;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="2-子查询"><a href="#2-子查询" class="headerlink" title="2.子查询"></a>2.子查询</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">1. 标量子查询</span><br><span class="line">select column1,(</span><br><span class="line"> select count(*) </span><br><span class="line"> from tableB </span><br><span class="line"> where column2 = a.column2</span><br><span class="line">) as cnt</span><br><span class="line">from tableA a;</span><br><span class="line"></span><br><span class="line">2. IN子查询</span><br><span class="line">select column1</span><br><span class="line">from tableA</span><br><span class="line">where column2 in (</span><br><span class="line"> select column2 from categories where name=&#x27;electronics&#x27;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">3. EXISTS子查询</span><br><span class="line">select column1</span><br><span class="line">from tableA a</span><br><span class="line">where exists (</span><br><span class="line"> select 1 </span><br><span class="line"> from tableB </span><br><span class="line"> where column2=a.column2</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">4. 子查询作为派生表</span><br><span class="line">select avg(sum) as avg</span><br><span class="line">from (</span><br><span class="line"> select sum(column2) as sum from tahlea group by column1</span><br><span class="line">) as t;</span><br><span class="line"></span><br><span class="line">5. 多条件子查询</span><br><span class="line">select column1,column2</span><br><span class="line">from tableA</span><br><span class="line">where column2 &gt; (</span><br><span class="line"> select avg(column2) from tableA</span><br><span class="line">);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="3-联合查询"><a href="#3-联合查询" class="headerlink" title="3.联合查询"></a>3.联合查询</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1. 去重联合</span><br><span class="line">select column1</span><br><span class="line">from tableA </span><br><span class="line"> union select column1 from tableB;</span><br><span class="line"></span><br><span class="line">2. 不去重联合</span><br><span class="line">select column1 </span><br><span class="line">from tableA</span><br><span class="line"> union all select column1 from tableB;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/04/21/%E6%92%AD%E5%AE%A2One/" data-id="cm9qn26jp0001nf9kbdjn7ptl" data-title="播客One" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2025/04/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/04/">April 2025</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/04/21/%E6%92%AD%E5%AE%A2One/">播客One</a>
+          </li>
+        
+          <li>
+            <a href="/2025/04/21/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
